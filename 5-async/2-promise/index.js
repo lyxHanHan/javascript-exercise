@@ -16,3 +16,4 @@ fetchData(URL)
   .catch(error => {
     console.error(error);
   });
+console.log(1);
