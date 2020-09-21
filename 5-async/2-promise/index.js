@@ -20,7 +20,7 @@ function fetchData(url) {
 }
 
 const URL = 'http://localhost:3000/api';
-fetch(URL)
+fetchData(URL)
   .then(data => {
     console.log(data);
   })
