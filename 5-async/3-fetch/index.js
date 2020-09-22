@@ -18,9 +18,8 @@ fetch(URL)
   .then(response => {
     if (response.status === 200) {
       return response.json();
-    } else {
-      Promise.reject('error msg');
     }
+    Promise.reject('error msg');
   })
   .then(data => {
     console.log(data);
