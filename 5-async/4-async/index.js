@@ -3,7 +3,7 @@ async function fetchData(url) {
   // TODO 24: 通过await/async实现异步请求
   const result = await fetch(url);
   const data = await result.json();
-  console.log(data);
+  document.writeln(data.name);
   // end -->
 }
 
